@@ -14,7 +14,7 @@ public:
             slow = next;
         }
 
-        if(fast)slow=slow->next;
+        // if(fast)slow=slow->next;
 
         while (prev && slow) {
             if (prev->val != slow->val)
