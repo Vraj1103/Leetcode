@@ -6,11 +6,11 @@ public:
         ListNode* slow = head;
         ListNode* fast = head;
 
-        while (fast && fast->next) {
-            fast = fast->next->next;
-            // if (fast->next != NULL) {
-            //     fast = fast->next;
-            // }
+        while (fast) {
+            fast = fast->next;
+            if (fast!= NULL) {
+                fast = fast->next;
+            }
             slow = slow->next;
             if (fast == slow  && slow != NULL) {
                 slow = head;
