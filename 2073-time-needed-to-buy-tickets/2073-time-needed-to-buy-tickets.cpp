@@ -4,7 +4,7 @@ public:
         int time = 0;
         while (tickets[k]) {
             for (int i = 0; i < tickets.size(); i++) {
-                if (tickets[i] != 0) {
+                if (tickets[i] > 0) {
                     tickets[i]--;
                     time++;
                 }
