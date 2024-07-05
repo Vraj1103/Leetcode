@@ -31,9 +31,9 @@ public:
         }
 
         sort(temp.begin(),temp.end());
-        for(auto x : temp){
-            cout<<x<<endl;
-        }
+        // for(auto x : temp){
+        //     cout<<x<<endl;
+        // }
         if(temp.size()<2)return {-1,-1};
 
 
